@@ -1,0 +1,194 @@
+/* App container */
+.app-container {
+  font-family: 'Georgia', serif; /* Classic serif font */
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9f5f0; /* Soft parchment color */
+  color: #333; /* Deep gray for text */
+}
+
+/* Body styling */
+body {
+  background-color: #ebe4da; /* Neutral background for a classic look */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 42px;
+  color: #4a3f35; /* Warm brown for a classic vibe */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #4a3f35; /* Subtle underline for elegance */
+  padding-bottom: 10px;
+}
+
+/* Form container */
+.form-container {
+  background-color: #ffffff; /* Clean white card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 30px;
+}
+
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #f4f1eb; /* Light beige */
+  border: 1px solid #d1ccc0; /* Soft border */
+  border-radius: 8px;
+  color: #4a3f35;
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  border-color: #867a6f; /* Subtle highlight on focus */
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #867a6f; /* Classic taupe */
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #6f6256; /* Darker taupe */
+}
+
+/* Posts container */
+.posts-container {
+  margin-top: 20px;
+}
+
+.post-card {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+}
+
+.post-card h3 {
+  margin-bottom: 10px;
+  color: #4a3f35; /* Warm brown */
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.post-card p {
+  margin-bottom: 15px;
+  color: #4a3f35;
+  font-size: 16px;
+}
+
+/* Post actions */
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #6a9a6b; /* Muted green */
+}
+
+.edit-btn:hover {
+  background-color: #587b57; /* Darker green */
+}
+
+.delete-btn {
+  background-color: #c85a5a; /* Muted red */
+}
+
+.delete-btn:hover {
+  background-color: #a64949; /* Darker red */
+}
+
+/* No posts message */
+.no-posts-text {
+  text-align: center;
+  color: #867a6f;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* Subtle animation for posts */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.post-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Previous styles remain unchanged */
+
+/* Body styling */
+body {
+  background-image: url('/image.jpg'); /* Replace 'your-image-url.jpg' with your image path */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep the background static when scrolling */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Make the body fill the viewport height */
+}
+
+/* App container */
+.app-container {
+  font-family: 'Georgia', serif; /* Classic serif font */
+  padding: 20px;
+  max-width: 800px;
+  width: 100%; /* Ensure responsiveness */
+  background-color: #f9f5f0; /* Soft parchment color */
+  color: #333; /* Deep gray for text */
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow for contrast */
+}
