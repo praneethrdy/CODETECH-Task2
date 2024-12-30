@@ -73,6 +73,8 @@ The use of JWT for authentication ensures secure login and access to admin-only 
 
 SCREENSHOTS :
 ![image1](https://github.com/user-attachments/assets/88cf0410-24d0-4449-b781-4ae41ecee6b1)
+
+![image2](https://github.com/user-attachments/assets/b877f5df-d164-4af8-a963-a7cb816afffd)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
