@@ -72,7 +72,7 @@ Authentication:
 The use of JWT for authentication ensures secure login and access to admin-only sections for post management.
 
 SCREENSHOTS :
-
+![image1](https://github.com/user-attachments/assets/88cf0410-24d0-4449-b781-4ae41ecee6b1)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
